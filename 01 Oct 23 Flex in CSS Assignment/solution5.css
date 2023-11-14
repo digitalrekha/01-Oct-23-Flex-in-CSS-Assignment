@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-box {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+}
+
+.left-box {
+    width: 100vw;
+    height: 100vh;
+    margin: 30px 50px;
+}
+
+
+.right-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-pri-menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.right-sec-menu {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    border: 1px solid rgb(184, 177, 177);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.btn1 {
+    background-color: #fb8037;
+    color: white;
+}
+
+#safety {
+    color: #3fc245;
+}
+
+#security {
+    color: #fb8a58;
+}
+
+#punc {
+    color: #696ea0;
+}
+
+#IR {
+    margin: 30px 0px 10px 0px;
+}
+
+.btn2 {
+    background-color: #213d77;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+/* Travel Detail */
+.travel-detail {
+    border: 1px solid rgb(184, 177, 177);
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.first-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.from {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(184, 177, 177);
+    font-size: 12px;
+}
+
+.KSR {
+    color: rgb(184, 177, 177);
+    font-size: 10px;
+}
+
+.second-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Bang {
+    line-height: 1.5;
+}
+
+.train-btn {
+    background-color: #01bb0a;
+    border: 1px solid #01bb0a;
+    border-radius: 5px;
+    height: 40px;
+    width: 650px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}

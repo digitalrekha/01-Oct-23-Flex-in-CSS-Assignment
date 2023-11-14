@@ -1,0 +1,19 @@
+Q1. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+Ans: Flexbox is a one-dimensional layout model, meaning that it can arrange items in a single row or column. Flexbox is excellent for aligning items within a container. It provides a number of properties that control how items are aligned and spaced along the main axis and cross axis. Flexbox is very flexible, allowing items to grow and shrink as needed. 
+
+Grid is a two-dimensional layout model, meaning that it can arrange items in both rows and columns. Grid also provides alignment properties, but they are less comprehensive than those of Flexbox. Grid is also flexible, but it provides more control over how items are positioned within the grid.
+
+Q2. Explain the role of the following key properties in the Flexbox layout model
+
+1. justify-content: This property controls how flex items are aligned along the main axis of the flex container. The main axis is the direction in which flex items are laid out, either horizontally or vertically. The possible values for justify-content are: flex-start, flex-end, center, space-between and space-around.
+
+2. align-items: This property controls how flex items are aligned along the cross axis of the flex container. The cross axis is the perpendicular direction to the main axis. The possible values for align-items are: flex-start, flex-end, center and stretch.
+
+3. gap: This property controls the amount of space between flex items. It can be used to create gutters between items, or to space items evenly within the container. The gap property can also be used to create different spacing for flex items along the main axis and cross axis.
+
+4. flex-direction: This property controls the direction in which flex items are laid out. The possible values for flex-direction are: row, row-reverse, column, column-reverse.
+
+5. flex-wrap: This property controls whether or not flex items can wrap to multiple lines. The possible values for flex-wrap are: nowrap, wrap, wrap-reverse.
+
+
+ 
